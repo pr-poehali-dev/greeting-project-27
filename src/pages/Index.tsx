@@ -22,7 +22,8 @@ const Index = () => {
             <div className="w-10 h-10 bg-primary pixel-corners flex items-center justify-center">
               <span className="text-2xl">⛏️</span>
             </div>
-            <span className="text-xl font-bold text-foreground">CraftLauncher</span>
+            <span className="text-xl font-bold text-foreground">RML</span>
+            <span className="text-sm text-muted-foreground ml-2">Ryt Minecraft Launcher</span>
           </div>
           <div className="flex gap-6">
             <a href="#home" className="text-muted-foreground hover:text-foreground transition-colors">Главная</a>
@@ -147,7 +148,7 @@ const Index = () => {
                 onClick={handleDownload}
               >
                 <Icon name="Download" className="mr-2" size={24} />
-                Скачать CraftLauncher v1.0.0
+                Скачать RML v1.0.0
               </Button>
 
               {!agreedToWarning && (
@@ -240,8 +241,8 @@ const Index = () => {
               <Icon name="Mail" className="text-primary mb-4" size={32} />
               <h3 className="text-xl font-bold mb-2">Email</h3>
               <p className="text-muted-foreground mb-2">Отправьте нам письмо</p>
-              <a href="mailto:support@craftlauncher.com" className="text-primary hover:underline">
-                support@craftlauncher.com
+              <a href="mailto:support@ryt-launcher.com" className="text-primary hover:underline">
+                support@ryt-launcher.com
               </a>
             </Card>
 
@@ -250,7 +251,7 @@ const Index = () => {
               <h3 className="text-xl font-bold mb-2">Discord</h3>
               <p className="text-muted-foreground mb-2">Присоединяйтесь к сообществу</p>
               <a href="#" className="text-primary hover:underline">
-                discord.gg/craftlauncher
+                discord.gg/ryt-launcher
               </a>
             </Card>
 
@@ -291,10 +292,10 @@ const Index = () => {
               <div className="w-8 h-8 bg-primary pixel-corners flex items-center justify-center">
                 <span className="text-xl">⛏️</span>
               </div>
-              <span className="font-bold">CraftLauncher</span>
+              <span className="font-bold">RML</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              © 2024 CraftLauncher. Используйте на свой риск.
+              © 2024 RML - Ryt Minecraft Launcher. Используйте на свой риск.
             </p>
           </div>
         </div>
