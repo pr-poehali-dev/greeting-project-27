@@ -10,7 +10,7 @@ const Index = () => {
 
   const handleDownload = () => {
     if (agreedToWarning) {
-      window.location.href = 'https://cloud.mail.ru/public/M4C6/i62uQ6XJm';
+      window.location.href = 'https://cloclo51.cloud.mail.ru/public/ELn17xVRiBpKX9ZJJa8/g/anti.script@internet.ru/M4C6/i62uQ6XJm';
     }
   };
 
