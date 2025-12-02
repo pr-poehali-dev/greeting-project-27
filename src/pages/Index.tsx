@@ -10,7 +10,7 @@ const Index = () => {
 
   const handleDownload = () => {
     if (agreedToWarning) {
-      alert('Загрузка начнется через несколько секунд...');
+      window.location.href = 'https://cloud.mail.ru/public/M4C6/i62uQ6XJm';
     }
   };
 
